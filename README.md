@@ -1,18 +1,18 @@
 # careCentrix
-You may find the solution and the approch of the following
-requriments solution in this project.
+You may find the solution  of the following
+requriments in this project.
 
-I have made the explanation of this assesment solution in the related class.
+I have made the explanation of the method and the steps in the related class.
 
-In the first class I stored most of the methods in the same file.
+In the first class I kept the  most of the methods and the actions in
+ the same class.
 
-In the second class almost all the operations are in the sub-methods which are store in the <Methods.class> Where 
-I store under <Utuility> package.
-
-I tried the use just like Page Object Model.
-
+In the second class, I kept  almost all the operations in the sub-methods 
+which are store in the < Methods.class > Where 
+I stored under < Utuility > package.
 
 
+Here are thr requirements.
 
 Scenario 1: User is alerted when a pipe delimited file is dropped in to a folder
 
