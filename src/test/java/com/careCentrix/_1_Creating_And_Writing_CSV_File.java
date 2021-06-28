@@ -36,6 +36,8 @@ public class _1_Creating_And_Writing_CSV_File {
     public static void main(String[] args)
     {
         addDataToCSV(CSV_FILE_PATH);
+        System.out.println(
+        " <result.csv> file is created  under the project tree  with the random data... ");
 
 
     }
@@ -130,7 +132,11 @@ public class _1_Creating_And_Writing_CSV_File {
                 rowdata = row.split(",");
                 data.add(rowdata);
                 System.out.println(row);
+
             }
+
+            System.out.println();
+            System.out.println();
 
             writer.writeAll(data);
 

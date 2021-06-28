@@ -26,7 +26,8 @@ public class _3_Reading_Log_File {
         while (errorEntry) {
 
             // asking the errorCode for checking
-            System.out.println("Which Error Message you want to check  < {Q} for exit >");
+            System.out.println("Please write the error code  you want to check  <{Q} for exit>");
+            System.out.println("Example : 200, 500, 400");
             errorType = sc.next();
             if (errorType.equalsIgnoreCase("Q")) {
                 System.exit(0);
